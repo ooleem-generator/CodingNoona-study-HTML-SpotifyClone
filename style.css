@@ -1,0 +1,139 @@
+body{
+    margin:0px;
+    font-family: Spotify-circular, Circular;
+  }
+  a{
+    text-decoration-line:none;
+    color:white;
+  }
+  a:hover{
+    color:#1db954;
+  }
+  nav{
+    height:80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .nav-item{
+    color:white;
+    padding: 28px 17px;
+    font-weight:700;
+  }
+  main{
+    height:968px;
+    background-color: #2941ab;
+    color:#1db954;
+    background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+    background-size: 175%;
+    background-position: 46% 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .headline{
+    font-size: 156px;
+    font-weight: 900;
+    position: relative;
+    left:225px;
+    padding-bottom:40px;
+  }
+  .headline-first{
+    position:relative;
+    left:-2.5em;
+  }
+  .sub-headline{
+    text-align: center;
+    font-size:18px;
+    padding-bottom:40px;
+  }
+  .button-area{
+    text-align: center;
+  }
+  button{
+    background-color:#1db954;
+    color:#2941ab;
+    padding:14px 32px;
+    border-radius: 500px;
+    border:none;
+    font-weight: 700;
+  }
+  button:hover{
+    transform: scale(1.1);
+  }
+  
+  footer{
+    height:530px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+  }
+  .footer-container{
+    max-width:1170px;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 50px;
+  }
+  .contents-area{
+    height:346px;
+    display:flex;
+  }
+  .first-box{
+    width:60%;
+    display:flex;
+    justify-content: space-between;
+  }
+  .column{
+    color:white;
+    font-size:16px;
+    display:flex;
+    flex-direction: column;
+  }
+  .subtitle{
+    color:#919496;
+    margin:20px 0px;
+    font-weight: 700;
+  }
+  .links{
+    margin-top:3px;
+    margin-bottom:15px;
+  }
+  .second-box{
+    width:40%;
+    display:flex;
+    justify-content: flex-end;
+  }
+  .icon-box{
+    width:54px;
+    height:54px;
+    background-color:#222322;
+    border-radius: 50%;
+    margin-right:15px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .icon{
+    font-size:24px;
+  }
+  .icon:hover{
+    color:#1db954;
+  }
+  .footer-line{
+    color:#919496;
+    display:flex;
+    justify-content: flex-end;
+    font-size:12px;
+  }
+  .footer-subline{
+    color:#919496;
+    margin-top:12px;
+    display:flex;
+    justify-content: space-between;
+
+  }
+  .subline-links{
+    color:#919496;
+    margin-right:24px;
+  }
